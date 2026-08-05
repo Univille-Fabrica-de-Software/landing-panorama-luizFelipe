@@ -1,8 +1,8 @@
-# Landing Page - Panorama do Mercado Tech
+# Landing Page - Panorama do Mercado de Tecnologia
 
 ## Nome do Acadêmico:
 
-Luiz Felipe
+Luiz Felipe da Silva
 
 ## Objetivo: 
 
@@ -10,8 +10,8 @@ Apresentar um resumo das vagas locais e nacionais, destacando as principais tecn
 
 ## Tecnologias utilizadas
 
-- HTML5
-- CSS3
+-- HTML5
+-- CSS3
 
 ## Principais percepções
 
