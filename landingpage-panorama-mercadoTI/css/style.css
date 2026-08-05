@@ -1,0 +1,344 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #d9f5d2;
+
+    color: #222;
+
+    line-height: 1.6;
+
+}
+
+.container{
+
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+}
+
+.header{
+
+    background-color: #2f7d32;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 60px 20px;
+
+}
+
+
+.header h1{
+
+    font-size: 40px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.subtitulo{
+
+    font-size: 20px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.informacoes{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 40px;
+
+    flex-wrap: wrap;
+
+}
+
+
+.informacoes p{
+
+    background-color: rgba(255,255,255,.15);
+
+    padding: 12px 18px;
+
+    border-radius: 8px;
+
+}
+
+section{
+
+    margin-top: 50px;
+
+}
+
+section h2{
+
+    text-align: center;
+
+    font-size: 32px;
+
+    color: #2f7d32;
+
+    margin-bottom: 25px;
+
+}
+
+.apresentacao{
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 12px rgba(0,0,0,.12);
+
+}
+
+
+.apresentacao p{
+
+    text-align: justify;
+
+    font-size: 18px;
+
+}
+
+.descricao{
+
+    text-align: center;
+
+    font-size: 18px;
+
+    margin-bottom: 35px;
+
+}
+
+.cards-vagas{
+
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+
+    gap: 25px;
+
+}
+
+.card-vaga{
+
+    background: white;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    border-left: 8px solid #2f7d32;
+
+    box-shadow: 0 5px 12px rgba(0,0,0,.12);
+
+    transition: .3s;
+
+}
+
+
+.card-vaga:hover{
+
+    transform: translateY(-6px);
+
+    box-shadow: 0 8px 18px rgba(0,0,0,.18);
+
+}
+
+.card-vaga h3{
+
+    color: #2f7d32;
+
+    margin-bottom: 15px;
+
+    font-size: 24px;
+
+}
+
+.card-vaga h4{
+
+    margin-top: 20px;
+
+    margin-bottom: 10px;
+
+    color: #1d5c21;
+
+}
+
+.card-vaga p{
+
+    margin-bottom: 8px;
+
+}
+
+.card-vaga ul{
+
+    margin-left: 22px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.card-vaga li{
+
+    margin-bottom: 6px;
+
+}
+
+.competencias-grid{
+
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+
+    gap: 30px;
+
+}
+
+
+.competencia-card{
+
+    background: white;
+
+    border-radius: 12px;
+
+    padding: 30px;
+
+    box-shadow: 0 5px 12px rgba(0,0,0,.12);
+
+}
+
+
+.competencia-card h3{
+
+    color: #2f7d32;
+
+    margin-bottom: 20px;
+
+}
+
+
+.competencia-card ul{
+
+    margin-left: 20px;
+
+}
+
+
+.competencia-card li{
+
+    margin-bottom: 10px;
+
+}
+
+.analise{
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 12px rgba(0,0,0,.12);
+
+}
+
+
+.analise p{
+
+    margin-bottom: 20px;
+
+    text-align: justify;
+
+}
+
+footer{
+
+    background-color: #2f7d32;
+
+    color: white;
+
+    margin-top: 60px;
+
+    padding: 35px;
+
+    text-align: center;
+
+}
+
+
+footer p{
+
+    margin: 8px 0;
+
+}
+
+@media(max-width:900px){
+
+    .cards-vagas{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .competencias-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+
+
+@media(max-width:600px){
+
+    .header h1{
+
+        font-size:30px;
+
+    }
+
+    .subtitulo{
+
+        font-size:18px;
+
+    }
+
+    .informacoes{
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+    section h2{
+
+        font-size:26px;
+
+    }
+
+}
