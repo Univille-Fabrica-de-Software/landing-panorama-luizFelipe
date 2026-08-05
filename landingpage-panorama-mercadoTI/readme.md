@@ -10,8 +10,8 @@ Apresentar um resumo das vagas locais e nacionais, destacando as principais tecn
 
 ## Tecnologias utilizadas
 
--- HTML5
--- CSS3
+- HTML5
+- CSS3
 
 ## Principais percepções
 
